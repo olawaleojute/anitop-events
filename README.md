@@ -2,8 +2,8 @@
 
 A static, responsive website for Anitop's two customer experiences:
 
-- **Event Planning:** visitors select one or more services/packages and send a prefilled WhatsApp brief.
-- **Furniture Catalogue:** visitors filter and select illustrative furniture samples, then request current pricing and availability on WhatsApp.
+- **Event Planning:** visitors select one or more services and send a prefilled WhatsApp brief.
+- **Furniture Catalogue:** visitors filter and select illustrative furniture references, then request current pricing and availability on WhatsApp.
 
 ## Preview
 
@@ -17,19 +17,19 @@ Then visit `http://localhost:8000`.
 
 ## Files
 
-- `index.html` — semantic content, interactive catalogue cards and enquiry forms
+- `index.html` — semantic content, 34 interactive furniture cards and enquiry forms
 - `styles.css` — responsive teal/ivory/gold design and accessible focus/selection states
 - `script.js` — navigation, filtering, multi-select summaries and WhatsApp/email handoff
+- `assets/products/` — 34 optimized catalogue reference images
 - `assets/anitop-flyer.jpg` — supplied visual brand reference
-- `assets/furniture-living.jpg`, `assets/furniture-dining.jpg` — locally saved illustrative Unsplash sample imagery
 - `assets/favicon.svg` — local brand-mark favicon
 - `preview-desktop.png`, `preview-mobile.png` — current browser previews
 
-## Important content note
+## Catalogue status
 
-All furniture cards are clearly presented as illustrative inspiration, not confirmed stock. Prices remain **request a quote** and availability must be confirmed with Anitop. Replace sample crops with approved product photography before production if an exact stock catalogue is required.
+All furniture cards are presented as reference or submitted-reference designs, not confirmed stock. Prices remain **Request a quote**, and Anitop must confirm current finish, price and availability before an order.
 
-Illustrative image sources: Unsplash photo IDs `1555041469-a586c61ea9bc` and `1617806118233-18e1de247200`. Review current Unsplash licensing requirements before production publication.
+The October 2026 final submission contained 32 images. Twenty-six distinct designs were added after omitting five colour/design duplicates and one design already represented in the catalogue. Story interface areas were removed with deterministic crops; the furniture itself was not regenerated or altered.
 
 ## Contact handoff
 
